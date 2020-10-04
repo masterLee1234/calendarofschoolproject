@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"npm run start\" \"npm run client\""
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "axios": "^0.20.0",
